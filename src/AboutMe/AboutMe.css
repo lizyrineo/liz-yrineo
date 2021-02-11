@@ -1,0 +1,96 @@
+.about-me {
+  
+  width: 700px;
+  font: bold;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.my-pic {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10vw;
+  margin-left: 50px;
+}
+.bio{
+  font-size: 22px;
+  font-weight: bolder;
+  height: 100px;
+  width: 500px;
+  margin-top: 7vw;
+  margin-left: 25px;
+}
+
+.adv-me{
+  
+  height: 300px;
+  width: 700px;
+  font-size: 22px;
+  font-weight: bolder;
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  margin-top: -200px;
+  margin-left: 750px;
+  padding-bottom: 100px;
+  padding-right: 20px;
+}
+
+
+.scaffold{
+  display: flex;
+  align-items: flex-end;
+  margin-top: 5vw;
+  margin-left: 50px;
+}
+.adv-bio{
+  font-size: 22px;
+  height: 100px;
+  width: 450px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 15vw;
+  margin-left: 25px;
+}
+
+.edu{
+  
+  height: 100px;
+  width: 600px;
+  display: flex;
+  margin-top: -250px;
+  margin-left: 45vw;
+  padding: 15px;
+}
+.csu{
+  padding: 15px;
+}
+.ga{
+  padding: 15px;
+}
+
+.lang-logos{
+  
+  height: 100px;
+  width: 600px;
+  display: flex;
+  margin-top: 320px;
+  margin-left: 4vw;
+}
+.css{
+  padding: 15px;
+}
+.html{
+  padding: 15px;
+}
+.js{
+  padding: 15px;
+}
+.ruby{
+  padding: 15px;
+}
+.react{
+  padding: 15px;
+}

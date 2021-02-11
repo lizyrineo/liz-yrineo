@@ -1,0 +1,26 @@
+.home{
+  min-height: 100%;
+}
+
+.title{
+  margin-top: 6vw;
+  font-weight: bolder;
+}
+
+.home-text{
+  height: 300px;
+  width: 700px;
+  font: bold;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 150px;
+  padding-bottom: 100px;
+
+}
+.para1{
+  margin-top: 50px;
+}
+.para2{
+  margin-top: 300px;
+}

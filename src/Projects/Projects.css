@@ -1,0 +1,70 @@
+.projects{
+  min-height: 100vh;
+}
+.proj-page{
+  margin-top: 160px;
+}
+.title{
+  font-size: 50px;
+}
+.sub-title{
+  margin-top: 10px;
+}
+.my-work{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.all-projects{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.all-p1{
+  height: 320px;
+  width: 650px;
+  margin-left: 120px;
+  display: flex;
+  padding-top: 25px;
+}
+.p1-text{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.all-p2{
+  
+  height: 320px;
+  width: 650px;
+  display: flex;
+  padding-top: 25px;
+}
+.p2-text{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.all-p3{
+  margin-left: 120px;
+  height: 320px;
+  width: 650px;
+  display: flex;
+  padding-top: 25px;
+}
+.p3-text{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.all-p4{
+  
+  height: 320px;
+  width: 650px;
+  display: flex;
+  padding-top: 25px;
+}
+.p4-text{
+  font-size: 20px;
+  font-weight: bolder;
+}

@@ -1,0 +1,95 @@
+background {
+  color: rgba(146, 108, 189, 0.721);
+}
+
+.nav-container{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  
+}
+.my-logo{
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.nav-list{
+  height: 100px;
+  width: 500px;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 125px;
+}
+.abt {
+  width: 10vw;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.work {
+  width: 10vw;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.contact {
+  width: 15vw;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+
+/* .logos {
+  margin-left: 40%;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.html {
+  font-size: 1vw;
+  padding: 1vw;
+  margin: 3vw;
+  object-fit: contain;
+}
+.css {
+  font-size: 1vw;
+  padding: 1vw;
+  margin: 1vw;
+  object-fit: contain;
+}
+.js {
+  size: 1vw;
+  padding: 1vw;
+  margin: 1vw;
+  object-fit: contain;
+}
+.ruby {
+  width: 10vw;
+  height: auto;
+  padding: 2vw;
+  margin: 1vw;
+  /* object-fit: cover; */
+/* } */
+
+/* .react {
+  size: 1vw;
+  padding: 2vw;
+  margin: 1vw;
+  object-fit: fill; */
+/* } */
