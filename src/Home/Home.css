@@ -1,9 +1,14 @@
 .home{
   min-height: 100%;
 }
+.all-home{
+  margin-bottom: 10vw;
+}
+
+
 
 .title{
-  margin-top: 6vw;
+  margin-top: 9.5vw;
   font-weight: bolder;
 }
 

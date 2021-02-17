@@ -8,7 +8,7 @@ export default function Nav() {
    <div className='nav-container'>
       <div className='my-logo'>
         <Link to='/'>
-        <img src='https://i.imgur.com/bUIAj1I.png?1' />
+        <img src='https://i.imgur.com/69whRZb.png?2' />
         </Link>
       </div>
       

@@ -8,6 +8,7 @@ export default function Home() {
  
   return (
     <div>
+      <div className='all-home'>
       <div className="title">
         <p class="section__intro">Project Manager & Software Developer</p>
       </div>
@@ -16,7 +17,7 @@ export default function Home() {
         <img className='para1' src='https://i.imgur.com/W8HfzLS.png' onload='loadImage()'/>
         <img className='para2' src='https://i.imgur.com/L9eSdY8.png' onload='loadImage()'/>
       </div>
-      
+      </div>
     </div>
   )
 }

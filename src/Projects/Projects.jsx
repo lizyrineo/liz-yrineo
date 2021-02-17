@@ -11,7 +11,7 @@ export default function Projects() {
         <div class="all-projects">
          <div className='all-p1'>
             <div className='p1'>
-            <a href="https://lizyrineo.github.io/national-parks/">
+              <a href="https://hopeful-bohr-abf1c2.netlify.app"target="_blank">
                 <img src="https://i.imgur.com/4HbEIL4.png?2"
                   alt='P1 screenshot'
                 />
@@ -22,7 +22,7 @@ export default function Projects() {
           
           <div className='all-p2'>
           <div className='p2'>
-            <a href="https://elated-dijkstra-9e1c18.netlify.app">
+            <a href="https://elated-dijkstra-9e1c18.netlify.app"target="_blank">
             <img
               src="https://i.imgur.com/Bv5hGUs.png?1"
               alt=""
@@ -34,7 +34,7 @@ export default function Projects() {
       
           <div className='all-p3'>
           <div className='p3'>
-          <a href='https://get-lost.netlify.app/'>
+          <a href='https://get-lost.netlify.app/'target="_blank">
             <img
               src="https://i.imgur.com/2wpn1Su.png?1"
               alt=""
@@ -46,7 +46,7 @@ export default function Projects() {
 
           <div className='all-p4'>
           <div className='p4'>
-          <a href='https://loving-jang-45d91b.netlify.app/'>
+          <a href='https://loving-jang-45d91b.netlify.app/'target="_blank">
           <img
               src="https://i.imgur.com/oRJHJO1.png?1"
               alt=""

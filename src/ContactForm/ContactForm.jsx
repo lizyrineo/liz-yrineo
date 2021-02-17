@@ -3,10 +3,12 @@ import React, { useState } from "react";
 import './ContactForm.css';
 
 const ContactForm = () => {
+ 
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Sending...");
+    e.target.reset();
     const { name, email, message } = e.target.elements;
     let details = {
       name: name.value,
@@ -28,7 +30,7 @@ const ContactForm = () => {
     <form className='all-form' onSubmit={handleSubmit}>
       <div className='name'>
         <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
+        <input className='name' type="text" id="name" required />
       </div>
       <div className='email'>
         <label htmlFor="email">Email:</label>

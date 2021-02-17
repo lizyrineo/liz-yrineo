@@ -1,8 +1,9 @@
 background {
-  color: rgba(146, 108, 189, 0.721);
+  
 }
 
 .nav-container{
+  background-color: rgba(148, 134, 164, 0.721);
   display: flex;
   flex-flow: row wrap;
   align-items: center;
