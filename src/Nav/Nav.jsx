@@ -13,13 +13,16 @@ export default function Nav() {
       </div>
       
   
-    <div className='nav-list'>
+      <div className='nav-list'>
+       
+        {/* <button> */}
         <Link className="abt" to='/AboutMe'>All About Me</Link>
-      
+        {/* </button> */}
+        <div className='transition'></div>
         <Link className="work" to='/Projects'>My Projects</Link>
 
         <Link className="contact" to='/ContactForm'>Let's get in touch!</Link>
-    </div>
+        </div>
     </div>
     
   )

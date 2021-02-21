@@ -10,7 +10,7 @@ export default function Projects() {
         <div class="all-projects">
          <div className='all-p1'>
             <div className='p1'>
-              <a href="https://hopeful-bohr-abf1c2.netlify.app"target="_blank">
+              <a href="https://visit-national-parks.netlify.app"target="_blank">
                 <img className= 'pic1' src="https://i.imgur.com/4HbEIL4.png?2"
                   alt='P1 screenshot'
                 />
@@ -47,7 +47,7 @@ export default function Projects() {
 
           <div className='all-p4'>
           <div className='p4'>
-          <a href='https://loving-jang-45d91b.netlify.app/'target="_blank">
+          <a href='https://pitch-in-volunteer.netlify.app'target="_blank">
                 <img
                   className='pic4'
                   src="https://i.imgur.com/oRJHJO1.png?1"
