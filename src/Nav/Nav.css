@@ -1,6 +1,4 @@
-background {
-  
-}
+
 
 .nav-container{
   background-color: rgba(148, 134, 164, 0.721);
@@ -20,13 +18,26 @@ background {
 }
 
 .nav-list{
-  height: 100px;
+  animation-duration: 3s;
+  animation-name: slidein;
+  overflow: hidden;
+  height: 50px;
   width: 500px;
   font-family: 'Josefin Sans', sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-right: 125px;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 .abt {
   width: 10vw;

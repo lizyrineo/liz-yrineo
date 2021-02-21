@@ -1,96 +1,139 @@
-.about-me {
-  
-  width: 700px;
-  font: bold;
-  display: flex;
-  align-items: center;
-  margin-top: 240px;
-  padding-bottom: 100px;
-}
 
+.bio-container{
+  width: 80vw;
+  margin-left: 180px;
+  margin-top: 20vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-basis: auto;
+  flex-wrap: nowrap;
+  
+}
 .my-pic {
-  display: flex;
-  align-items: flex-start;
-  margin-top: 10vw;
-  margin-left: 150px;
+  flex: 0 0 auto;
+  background-image: linear-gradient(to right, #155259,   #C6E6E3);
+  box-shadow: 8px 8px  #346167a5;
+  border-radius: 50%;
 }
-.bio{
-  font-size: 22px;
+.my-bio{
+  flex: 0 0 auto;
+  content: center;
   font-weight: bolder;
-  height: 100px;
-  width: 500px;
-  margin-top: 7vw;
-  margin-left: 25px;
+  width: 370px;
+  height: auto;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 28px;
+  padding-left: 20px;
+  padding-right: 10px;
+  background-image: linear-gradient(to right, #155259,   #C6E6E3);
+  box-shadow: 8px 8px  #346167a5;
+  border-top-left-radius: 65px;
+  border-bottom-right-radius: 65px;
 }
-
-.adv-me{
-  
-  height: 300px;
-  width: 700px;
-  font-size: 22px;
-  font-weight: bolder;
-  display: flex;
-  align-self: flex-end;
-  align-items: center;
-  margin-top: -200px;
-  margin-left: 750px;
-  padding-bottom: 100px;
-  padding-right: 20px;
-}
-
-
-.scaffold{
-  display: flex;
-  align-items: flex-end;
-  margin-top: 5vw;
-  margin-left: 50px;
-}
-.adv-bio{
-  font-size: 22px;
-  height: 100px;
-  width: 450px;
-  display: flex;
-  align-items: flex-end;
-  margin-top: 15vw;
-  margin-left: 25px;
-}
-
 .edu{
-  
-  height: 100px;
-  width: 600px;
-  display: flex;
-  margin-top: -250px;
-  margin-left: 45vw;
+  flex: 0 0 auto;
   padding: 15px;
 }
 .csu{
+  /* position:absolute;
+  top: 140px;
+  left: 100px;
+  z-index: 3; */
   padding: 15px;
 }
 .ga{
+  /* position: absolute;
+  top: 0px;
+  left: 90px;
+  z-index: 1; */
   padding: 15px;
 }
-
-.lang-logos{
-  
-  height: 100px;
-  width: 600px;
+.adv-container{
+  width: 80vw;
+  margin-left: 180px;
+  margin-top: 17vw;
+  margin-bottom: 10vw;
   display: flex;
-  margin-top: 320px;
-  margin-left: 4vw;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-basis: auto;
+  flex-wrap: nowrap;
 }
-.css{
+.skydiving{
+  flex: 0 0 auto;
+  background-image: linear-gradient(to right, #155259,   #C6E6E3);
+  box-shadow: 8px 8px  #346167a5;
+  border-radius: 50%;
+  margin-right: 80px;
+}
+.adv-bio-text{
+  flex: 0 0 auto;
+  content: center;
+  font-weight: bolder;
+  width: 370px;
+  height: auto;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 28px;
+  padding-left: 20px;
+  padding-right: 10px;
+  background-image: linear-gradient(to right, #155259,   #C6E6E3);
+  box-shadow: 8px 8px  #346167a5;
+  border-top-left-radius: 65px;
+  border-bottom-right-radius: 65px;
+}
+.lang-logos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 15px;
+  height: auto;
+  width: 400px;
 }
 .html{
-  padding: 15px;
+  padding: 17px;
+  animation: rotation 6s;
+  animation-timing-function: linear;
+}
+.css{
+  padding: 17px;
+  animation: rotation 6s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
 }
 .js{
-  padding: 15px;
+  padding: 17px;
+  animation: rotation 6s;
+  animation-delay: 3s;
+  animation-timing-function: linear;
 }
 .ruby{
-  padding: 15px;
+  padding: 13px;
+  animation: rotation 6s;
+  animation-delay: 4s;
+  animation-timing-function: linear;
+}
+.rails{
+  padding: 28px;
+  animation: rotation 6s;
+  animation-delay:5s;
+  animation-timing-function: linear;
 }
 .react{
-  padding: 15px;
+  padding: 10px;
+  animation: rotation 6s;
+  animation-delay: 6s;
+  animation-timing-function: linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }

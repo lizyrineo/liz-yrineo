@@ -1,8 +1,19 @@
 body {
   margin: 0;
-  background-image: linear-gradient(to right, #593d67,  #BC9EC8);
+  /* background-image: linear-gradient(to right, #593d67,  #BC9EC8); */
+  background: linear-gradient(119deg, #593d67, #bc9ec8);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+@keyframes AnimationName {
+  0%{background-position:5% 0%}
+  50%{background-position:96% 100%}
+  100%{background-position:5% 0%}
 }
 
 code {

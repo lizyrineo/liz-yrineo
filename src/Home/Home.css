@@ -7,25 +7,84 @@
 
 
 
-.title{
-  margin-top: 9.5vw;
+.home-title{
+  text-align: center;
+  margin-top: 16vw;
   font-weight: bolder;
+  margin-left: 400px;
+  font-size: 50px;
+  height: 100px;
+  width: 900px;
+  padding-top: 10px;
+  padding-bottom: 28px;
+  background-image: linear-gradient(to right, #155259,   #C6E6E3);
+  box-shadow: 8px 8px  #346167a5;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
 }
 
-.home-text{
-  height: 300px;
-  width: 700px;
-  font: bold;
-  display: flex;
-  align-items: center;
-  margin-top: 100px;
-  margin-left: 150px;
-  padding-bottom: 100px;
+.home-text1{
+  text-align: center;
+  margin-top: 6vw;
+  font-weight: bolder;
+  margin-left: 200px;
+  font-size: 25px;
+  height: 250px;
+  width: 550px;
+  padding-top: 10px;
+  padding-bottom: 28px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: linear-gradient(to right, #155259,   #C6E6E3);
+  box-shadow: 8px 8px  #346167a5;
+  border-top-left-radius: 65px;
+  border-bottom-right-radius: 65px;
 
 }
-.para1{
-  margin-top: 50px;
+.home-text2{
+  text-align: center;
+  margin-top: 11vw;
+  font-weight: bolder;
+  margin-left: 850px;
+  font-size: 25px;
+  height: 250px;
+  width: 550px;
+  padding-top: 35px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: linear-gradient(to right, #155259,   #C6E6E3);
+  box-shadow: 8px 8px  #346167a5;
+  border-top-right-radius: 65px;
+  border-bottom-left-radius: 65px;
+
 }
-.para2{
-  margin-top: 300px;
+.const-pic {
+  background-image: linear-gradient(to right, #155259,   #C6E6E3);
+  box-shadow: 8px 8px  #346167a5;
+  border-radius: 50%;
+  margin-left: 820px;
+  margin-top: -250px;
+  margin-bottom: 55px;
+  border-radius: 50%;
+}
+.para2-pic{
+  margin-left: -700px;
+  margin-top: -350px;
+  margin-bottom: 55px;
+  border-radius: 50%;
+}
+.hands-pic {
+  background-image: linear-gradient(to right, #155259,   #C6E6E3);
+  box-shadow: 8px 8px  #346167a5;
+  border-radius: 50%;
+  
+}
+@keyframes stretch {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
