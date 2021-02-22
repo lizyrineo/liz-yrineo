@@ -30,7 +30,10 @@ export default function AboutMe() {
         </div>
       </div>
       </div>
-
+      
+      {/* <div className='denver'>
+        <img src='https://i.imgur.com/n6rDSSa.jpg?1'/>
+      </div> */}
       <div class="adv-container">
       
       <div className='lang-logos'>

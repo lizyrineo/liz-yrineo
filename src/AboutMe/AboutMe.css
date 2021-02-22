@@ -51,10 +51,15 @@
   z-index: 1; */
   padding: 15px;
 }
+.denver{
+  margin-top: 225px;
+  border-radius: 50%;
+
+}
 .adv-container{
   width: 80vw;
   margin-left: 180px;
-  margin-top: 17vw;
+  margin-top: 10vw;
   margin-bottom: 10vw;
   display: flex;
   justify-content: space-between;

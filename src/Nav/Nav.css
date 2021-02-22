@@ -1,5 +1,6 @@
 .nav-container {
   background-color: rgba(148, 134, 164, 0.721);
+  background: linear-gradient(to bottom, rgb(189, 163, 213), transparent 90%);
   display: flex;
   flex-flow: row wrap;
   align-items: center;
