@@ -24,9 +24,9 @@ export default function Home() {
       </div>
 
       <div className="home-title">
-        <p className="banner">
-          Project Manager | Software Developer | Social Justice Warrior
-        </p>
+        <span>⌯ Project Manager ⌯</span>
+        <span>⌯ Software Developer ⌯</span>
+        <span>⌯ Social Justice Warrior ⌯</span>
       </div>
 
       <div className="home-text2">
