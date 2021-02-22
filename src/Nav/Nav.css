@@ -35,7 +35,7 @@
   cursor: hand;
   text-align: center;
   text-transform: capitalize;
-  border: 2px solid #593d67;
+  border: 4px solid #593d67;
   border-top-left-radius: 65px;
   border-bottom-right-radius: 65px;
   position: relative;
@@ -109,7 +109,7 @@
   cursor: hand;
   text-align: center;
   text-transform: capitalize;
-  border: 2px solid #593d67;
+  border: 4px solid #593d67;
   border-top-left-radius: 65px;
   border-bottom-right-radius: 65px;
   position: relative;
@@ -176,14 +176,15 @@
 .contact {
   text-decoration: none;
   top: 40px;
-  padding: 17px;
+  padding: 15px;
+  margin: 8px;
   /* text-transform: uppercase !important; */
   letter-spacing: 2px;
   color: #593d67;
   cursor: hand;
   text-align: center;
   text-transform: capitalize;
-  border: 2px solid #593d67;
+  border: 4px solid #593d67;
   border-top-left-radius: 65px;
   border-bottom-right-radius: 65px;
   position: relative;
