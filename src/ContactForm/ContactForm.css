@@ -10,9 +10,9 @@
   margin-left: 570px;
   margin-bottom: 100px;
   font-size: 25px;
-  height: 250px;
+  height: 320px;
   width: 550px;
-  padding-top: 75px;
+  padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -23,28 +23,36 @@
   border-bottom-left-radius: 65px;
 }
 .name{
+  display: grid;
   padding: 15px;
   margin-right: 5px;
 }
 .name-box{
-  padding: 8px;
-  margin-left: 8px;
+  height: 20px;
+  width: 500px;
+  
 }
 .email{
+  display: grid;
   padding: 15px;
-  margin-right: 5px;
+  
 }
 .email-box{
-  padding: 8px;
-  margin-left: 13px;
+  height: 20px;
+  width: 500px;
+  
 }
 .message{
+  display: grid;
   padding: 6px;
-  margin-right: 1px;
+  
 }
 .message-box{
-  padding: 4px;
-  margin-left: 5px;
+  height: 25px;
+  width: 500px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  margin-left: 11px;
 }
 .submit{
   text-decoration: none;
@@ -52,6 +60,7 @@
   padding: 17px;
   letter-spacing: 2px;
   color: #593d67;
+  font-size: 20px;
   font-weight: bolder;
   cursor: hand;
   text-align: center;
@@ -67,4 +76,56 @@
   transition: all 0.3s ease-in-out;
   background: transparent !important;
   z-index: 10;
+}
+.submit:hover {
+  border: 3px solid #593d6787;
+  color: #6c979da5 !important;
+}
+.submit::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: #593d679e;
+  position: absolute;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  left: -10%;
+  opacity: 1;
+  top: 0;
+  z-index: -12;
+  -moz-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  box-shadow: 2px 0px 14px rgba(0, 0, 0, 0.6);
+}
+.submit::after {
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: #34616776;
+  position: absolute;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  left: -10%;
+  opacity: 0;
+  top: 0;
+  z-index: -15;
+  -webkit-transition: all 0.94s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  -moz-transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  -o-transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  box-shadow: 2px 0px 14px rgba(0, 0, 0, 0.6);
+}
+.submit:hover::before{
+  opacity:1;
+  width: 116%;
+}
+.submit:hover::after{
+  opacity:1;
+  width: 120%;
 }
