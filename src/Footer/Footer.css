@@ -16,11 +16,15 @@
 .social-list{
   display: flexbox;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 1px;
+  padding: 15px;
 }
 .github{
   padding: 10px;
 }
 .linkedin{
   padding: 10px;
+}
+.resume{
+  padding: 5px;
 }
