@@ -30,17 +30,17 @@ const ContactForm = () => {
     <form className='all-form' onSubmit={handleSubmit}>
       <div className='name'>
         <label htmlFor="name">Name:</label>
-        <input className='name' type="text" id="name" required />
+        <input className='name-box' type="text" id="name" required />
       </div>
       <div className='email'>
         <label htmlFor="email">Email:</label>
-        <input type="email" id="email" required />
+        <input className='email-box' type="email" id="email" required />
       </div>
       <div className='message'>
         <label htmlFor="message">Message:</label>
-        <textarea id="message" required />
+        <textarea className='message-box' id="message" required />
       </div>
-      <button type="submit">{status}</button>
+      <button className='submit' type="submit">{status}</button>
     </form>
   );
 };
