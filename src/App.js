@@ -12,7 +12,9 @@ import ContactForm from "./ContactForm/ContactForm";
 function App() {
   return (
     <div className="all-app">
-      
+      <div class="bg"></div>
+      <div class="bg bg2"></div>
+      <div class="bg bg3"></div>
       <Nav />
       
       <Switch>
@@ -29,7 +31,8 @@ function App() {
           <ContactForm />
         </Route>
       </Switch>
-      <Footer />
+        <Footer />
+        
     </div>
   );
 }
