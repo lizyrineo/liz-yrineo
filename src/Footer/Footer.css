@@ -44,7 +44,7 @@
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #8B47B5 !important;
+  background: #633faa !important;
   z-index: 10;
 }
 .resume-click:hover {
@@ -57,7 +57,7 @@
   height: 100%;
   display: block;
   color: black;
-  background: #260e4d;
+  background: #2e0a76;
   position: absolute;
   -ms-transform: skewX(-20deg);
   -webkit-transform: skewX(-20deg);

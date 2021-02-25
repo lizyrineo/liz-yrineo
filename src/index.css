@@ -1,12 +1,12 @@
 body {
   margin: 0;
   /* background-image: linear-gradient(to right, #593d67,  #BC9EC8); */
-  background: linear-gradient(119deg, #593d67, #bc9ec8);
+  background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
     background-size: 400% 400%;
     font-family: 'Josefin Sans', sans-serif;
-    -webkit-animation: AnimationName 10s ease infinite;
-    -moz-animation: AnimationName 7s ease infinite;
-    animation: AnimationName 7s ease infinite;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
