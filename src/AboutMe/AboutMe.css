@@ -18,6 +18,7 @@
   height: 400px;
 }
 .my-pic-border {
+  box-shadow: rgb(5, 13, 21) 0px 20px 30px -10px;
   max-width: 300px;
   padding: 1rem;
   position: relative;
@@ -26,6 +27,7 @@
   padding: 15px;
 }
 .my-bio {
+  box-shadow: rgb(5, 13, 21) 0px 20px 30px -10px;
   flex: 0 0 auto;
   content: center;
   font-weight: bolder;
@@ -40,8 +42,8 @@
   /* box-shadow: 8px 8px #346167a5; */
   border-top-left-radius: 85px;
   border-bottom-right-radius: 85px;
-  box-shadow: 0 0 0 rgba(150, 245, 244, 0.4);
-  animation: pulse 2s infinite;
+  /* box-shadow: 0 0 0 rgba(150, 245, 244, 0.4);
+  animation: pulse 2s infinite; */
 }
 /* .edu {
   flex: 0 0 auto;
@@ -85,6 +87,7 @@
   height: 300px;
 }
 .skydiving-container {
+  box-shadow: rgb(5, 13, 21) 0px 20px 30px -10px;
   max-width: 450px;
   padding: 1rem;
   position: relative;
@@ -93,6 +96,7 @@
   padding: 25px;
 }
 .adv-bio-text {
+  box-shadow: rgb(5, 13, 21) 0px 20px 30px -10px;
   flex: 0 0 auto;
   content: center;
   font-weight: bolder;
@@ -104,11 +108,11 @@
   padding-left: 20px;
   padding-right: 10px;
   background-image: linear-gradient(to right, #4ca5c7, #8cdaab);
-  box-shadow: 8px 8px #346167a5;
   border-top-left-radius: 85px;
   border-bottom-right-radius: 85px;
 }
 .lang-logos {
+  box-shadow: rgb(5, 13, 21) 0px 20px 30px -10px;
   margin-left: 490px;
   margin-bottom: 30px;
   display: flex;
@@ -116,38 +120,44 @@
   flex-wrap: nowrap;
   padding: 15px;
   /* height: auto; */
-  width: 500vh;
+  width: 790px;
 }
 .html {
+  box-shadow: rgb(5, 13, 21) 0px 20px 30px -10px;
   padding: 25px;
   /* animation: rotation 6s;
   animation-timing-function: linear; */
 }
 .css {
+  box-shadow: rgb(5, 13, 21) 0px 20px 30px -10px;
   padding: 25px;
   /* animation: rotation 6s;
   animation-timing-function: linear;
   animation-delay: 2s; */
 }
 .js {
+  box-shadow: rgb(5, 13, 21) 0px 20px 30px -10px;
   padding: 25px;
   /* animation: rotation 6s;
   animation-delay: 3s;
   animation-timing-function: linear; */
 }
 .ruby {
+  box-shadow: rgb(5, 13, 21) 0px 20px 30px -10px;
   padding: 25px;
   /* animation: rotation 6s;
   animation-delay: 4s;
   animation-timing-function: linear; */
 }
 .rails {
+  box-shadow: rgb(5, 13, 21) 0px 20px 30px -10px;
   padding: 48px;
   /* animation: rotation 6s;
   animation-delay: 5s;
   animation-timing-function: linear; */
 }
 .react {
+  box-shadow: rgb(5, 13, 21) 0px 20px 30px -10px;
   padding: 25px;
   /* animation: rotation 6s;
   animation-delay: 6s;

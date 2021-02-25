@@ -1,7 +1,7 @@
 body {
   margin: 0;
   /* background-image: linear-gradient(to right, #593d67,  #BC9EC8); */
-  background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+  background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);;
     background-size: 400% 400%;
     font-family: 'Josefin Sans', sans-serif;
     -webkit-animation: AnimationName 15s ease infinite;

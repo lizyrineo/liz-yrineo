@@ -24,7 +24,7 @@ export default function Footer() {
           </div>
         
         
-        <div className="linkedin">
+          <div className="linkedin">
           <a
             class="social-list-linkedin__link"
             href="https://www.linkedin.com/in/liz-yrineo-39542469/"
@@ -33,20 +33,23 @@ export default function Footer() {
             <FontAwesomeIcon className="linkedin" icon={faLinkedin} />
           </a>
           </div>
-          </div>
-        <div className="resume">
-       
-          <a href="https://drive.google.com/file/d/1H50CXXYD1Ofg3H7fW4ruTgmFCSzdHcCk/preview"
-          target="_blank">
-           <button className='resume-click'>To my resume</button>
-          </a>
-          
-        </div>
+    </div>
+
         <div className='author'>
           <p>
              ©lizyrineo 2021
           </p>
         </div>
-      </div>
+
+        <div className="resume">
+          <a href="https://drive.google.com/file/d/1H50CXXYD1Ofg3H7fW4ruTgmFCSzdHcCk/preview"
+          target="_blank">
+           <button className='resume-click'>To my resume</button>
+          </a>
+        </div>
+          
+       
+       
+  </div>
   );
 }
