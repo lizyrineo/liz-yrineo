@@ -14,7 +14,7 @@ export default function Nav() {
         <div className='drop-box-bottom'>
         <div className='drop3'></div>
         <Link to='/'>
-        <img className='computer' src='https://i.imgur.com/bFSTws1.png?2' />
+        <img className='computer' src='https://i.imgur.com/bFSTws1.png?2' alt='computer'/>
           </Link>
           <h1 className='my-name'>Liz Yrineo</h1>
           </div>
