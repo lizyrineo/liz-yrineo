@@ -7,9 +7,10 @@
   margin-bottom: 10vw;
 }
 .home-title {
-  margin-top: 130px;
+  margin-top: 20vw;
   margin-left: 3vw;
-  font-size: 45px;
+  font-size: 55px;
+  color: #4ca5c7;
   font-weight: bolder;
   letter-spacing: 2px;
   display: -webkit-flex;
@@ -23,7 +24,7 @@
   transform: translate(-50%,-50%);
 }
 .home-title span{
-  color: #c6e6e3;
+  color: #4ca5c7;
   /* text-transform: uppercase; */
   animation: animate 8s ease forwards infinite;
 }
@@ -44,64 +45,107 @@
     text-shadow: 0 30px 25px #000;
   }
 }
-.home-text1 {
-  text-align: center;
-  margin-top: vw;
-  font-weight: bolder;
-  margin-left: 200px;
-  font-size: 25px;
-  height: 250px;
-  width: 550px;
-  padding-top: 10px;
-  padding-bottom: 28px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-image: linear-gradient(to right, #155259, #c6e6e3);
-  box-shadow: 0 0 0 rgba(177, 119, 225, 0.4);
-  animation: pulse 2s infinite;
-  border-top-left-radius: 65px;
-  border-bottom-right-radius: 65px;
+.home1-container{
+  width: 80vw;
+  margin-left: 180px;
+  margin-top: 5vw;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-basis: auto;
+  flex-wrap: nowrap;
 }
-
-.home-text2 {
-  text-align: center;
-  margin-top: 9vw;
+.para1 {
+  flex: 0 0 auto;
+  content: center;
   font-weight: bolder;
-  margin-left: 850px;
-  font-size: 25px;
-  height: 250px;
-  width: 550px;
-  padding-top: 35px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  width: 650px;
+  height: 350px;
+  font-size: 30px;
+  padding-top: 70px;
+  padding-bottom: 0px;
+  padding-left: 20px;
   padding-right: 10px;
-  background-image: linear-gradient(to right, #155259, #c6e6e3);
-  box-shadow: 0 0 0 rgba(177, 119, 225, 0.4);
+  background-image: linear-gradient(to right, #4ca5c7, #8cdaab);
+  /* box-shadow: 8px 8px #346167a5; */
+  border-top-left-radius: 85px;
+  border-bottom-right-radius: 85px;
+  box-shadow: 0 0 0 rgba(150, 245, 244, 0.4);
   animation: pulse 2s infinite;
-  border-top-right-radius: 65px;
-  border-bottom-left-radius: 65px;
 }
 .const-pic {
-  background-image: linear-gradient(to right, #155259, #c6e6e3);
-  box-shadow: 0 0 0 rgba(177, 119, 225, 0.4);
-  animation: pulse 2s infinite;
+  flex: 0 0 auto;
+  background-image: linear-gradient(to right, #4ca5c7, #8cdaab);
+  /* box-shadow: 8px 8px  #346167a5; */
   border-radius: 50%;
-  margin-left: 820px;
-  margin-top: -250px;
-  margin-bottom: 55px;
-  border-radius: 50%;
+  height: 300px;
 }
-.para2-pic {
+.const-pic-border{
+  max-width: 300px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, #4ca5c7, #8cdaab);
+  border-radius: 50%;
+  padding: 15px;
+  box-shadow: 0 0 0 rgba(150, 245, 244, 0.4);
+  animation: pulse 2s infinite;
+}
+.home2-container{
+  width: 80vw;
+  margin-left: 220px;
+  margin-top: 8vw;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-basis: auto;
+  flex-wrap: nowrap;
+}
+.para2 {
+  flex: 0 0 auto;
+  content: center;
+  font-weight: bolder;
+  width: 650px;
+  height: 350px;
+  font-size: 30px;
+  margin-left: 250px;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 10px;
+  background-image: linear-gradient(to right, #4ca5c7, #8cdaab);
+  /* box-shadow: 8px 8px #346167a5; */
+  border-top-left-radius: 85px;
+  border-bottom-right-radius: 85px;
+  box-shadow: 0 0 0 rgba(150, 245, 244, 0.4);
+  animation: pulse 2s infinite;
+}
+
+/* .para2-pic {
   margin-left: -700px;
   margin-top: -350px;
   margin-bottom: 55px;
   border-radius: 50%;
-}
+} */
 .hands-pic {
-  background-image: linear-gradient(to right, #155259, #c6e6e3);
-  box-shadow: 0 0 0 rgba(177, 119, 225, 0.4);
-  animation: pulse 2s infinite;
+  background-image: linear-gradient(to right, #4ca5c7, #8cdaab);
+  box-shadow: 0 0 0 #8cdaab;
+  animation: pulse 3s infinite;
   border-radius: 50%;
+  
+}
+.hands-pic-border {
+  max-width: 300px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, #4ca5c7, #8cdaab);
+  border-radius: 50%;
+  padding: 15px;
+  box-shadow: 0 0 0 rgba(150, 245, 244, 0.4);
+  animation: pulse 2s infinite;
 }
 @-webkit-keyframes pulse {
   0% {

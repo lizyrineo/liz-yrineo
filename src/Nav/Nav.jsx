@@ -7,9 +7,17 @@ export default function Nav() {
   return (
    <div className='nav-container'>
       <div className='my-logo'>
+        <div className='drop-box-top'>
+        <div className='drop1'></div>
+        <div className='drop2'></div>
+        </div>
+        <div className='drop-box-bottom'>
+        <div className='drop3'></div>
         <Link to='/'>
-        <img src='https://i.imgur.com/kjzYMFT.png?1' />
-        </Link>
+        <img className='computer' src='https://i.imgur.com/bFSTws1.png?2' />
+          </Link>
+          <h1 className='my-name'>Liz Yrineo</h1>
+          </div>
       </div>
       
   

@@ -11,7 +11,8 @@ import ContactForm from "./ContactForm/ContactForm";
 
 function App() {
   return (
-    <div className="all-app">
+    <div className="page-container">
+      <div className='content-wrap'>
       <div class="bg"></div>
       <div class="bg bg2"></div>
       <div class="bg bg3"></div>
@@ -30,9 +31,10 @@ function App() {
         <Route path="/ContactForm">
           <ContactForm />
         </Route>
-      </Switch>
+        </Switch>
+        </div>
         <Footer />
-        
+       
     </div>
   );
 }

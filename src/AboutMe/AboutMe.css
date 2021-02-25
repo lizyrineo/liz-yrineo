@@ -1,144 +1,163 @@
-
-.bio-container{
+.bio-container {
   width: 80vw;
   margin-left: 180px;
   margin-top: 20vw;
+  margin-bottom: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
   flex-basis: auto;
   flex-wrap: nowrap;
-  
 }
 .my-pic {
   flex: 0 0 auto;
-  background-image: linear-gradient(to right, #155259,   #C6E6E3);
-  box-shadow: 8px 8px  #346167a5;
+  background-image: linear-gradient(to right, #4ca5c7, #8cdaab);
+  /* box-shadow: 8px 8px  #346167a5; */
   border-radius: 50%;
+  height: 400px;
 }
-.my-bio{
+.my-pic-border {
+  max-width: 300px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, #4ca5c7, #8cdaab);
+  border-radius: 50%;
+  padding: 15px;
+}
+.my-bio {
   flex: 0 0 auto;
   content: center;
   font-weight: bolder;
-  width: 370px;
-  height: auto;
-  font-size: 20px;
-  padding-top: 30px;
-  padding-bottom: 28px;
+  width: 650px;
+  height: 350px;
+  font-size: 30px;
+  padding-top: 70px;
+  padding-bottom: 0px;
   padding-left: 20px;
   padding-right: 10px;
-  background-image: linear-gradient(to right, #155259,   #C6E6E3);
-  box-shadow: 8px 8px  #346167a5;
-  border-top-left-radius: 65px;
-  border-bottom-right-radius: 65px;
+  background-image: linear-gradient(to right, #4ca5c7, #8cdaab);
+  /* box-shadow: 8px 8px #346167a5; */
+  border-top-left-radius: 85px;
+  border-bottom-right-radius: 85px;
+  box-shadow: 0 0 0 rgba(150, 245, 244, 0.4);
+  animation: pulse 2s infinite;
 }
-.edu{
+/* .edu {
   flex: 0 0 auto;
   padding: 15px;
 }
-.csu{
+.csu {
   /* position:absolute;
   top: 140px;
   left: 100px;
   z-index: 3; */
-  padding: 15px;
-}
-.ga{
+  /* padding: 15px; */
+/* }
+.ga { */
   /* position: absolute;
   top: 0px;
   left: 90px;
   z-index: 1; */
-  padding: 15px;
-}
-.denver{
+  /* padding: 15px; */
+/* } */
+.denver {
   margin-top: 225px;
   border-radius: 50%;
-
 }
-.adv-container{
+.adv-container {
   width: 80vw;
   margin-left: 180px;
   margin-top: 10vw;
-  margin-bottom: 10vw;
+  margin-bottom: 15vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
   flex-basis: auto;
   flex-wrap: nowrap;
 }
-.skydiving{
+.skydiving {
   flex: 0 0 auto;
-  background-image: linear-gradient(to right, #155259,   #C6E6E3);
-  box-shadow: 8px 8px  #346167a5;
+  background-image: linear-gradient(to right, #4ca5c7, #8cdaab);
+  /* box-shadow: 8px 8px  #346167a5; */
   border-radius: 50%;
-  margin-right: 80px;
+  height: 300px;
 }
-.adv-bio-text{
+.skydiving-container {
+  max-width: 450px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, #4ca5c7, #8cdaab);
+  border-radius: 50%;
+  padding: 25px;
+}
+.adv-bio-text {
   flex: 0 0 auto;
   content: center;
   font-weight: bolder;
-  width: 370px;
-  height: auto;
-  font-size: 20px;
-  padding-top: 30px;
-  padding-bottom: 28px;
+  width: 650px;
+  height: 350px;
+  font-size: 30px;
+  padding-top: 70px;
+  padding-bottom: 0px;
   padding-left: 20px;
   padding-right: 10px;
-  background-image: linear-gradient(to right, #155259,   #C6E6E3);
-  box-shadow: 8px 8px  #346167a5;
-  border-top-left-radius: 65px;
-  border-bottom-right-radius: 65px;
+  background-image: linear-gradient(to right, #4ca5c7, #8cdaab);
+  box-shadow: 8px 8px #346167a5;
+  border-top-left-radius: 85px;
+  border-bottom-right-radius: 85px;
 }
-.lang-logos{
+.lang-logos {
+  margin-left: 490px;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding: 15px;
-  height: auto;
-  width: 400px;
+  /* height: auto; */
+  width: 500vh;
 }
-.html{
-  padding: 17px;
-  animation: rotation 6s;
+.html {
+  padding: 25px;
+  /* animation: rotation 6s;
+  animation-timing-function: linear; */
+}
+.css {
+  padding: 25px;
+  /* animation: rotation 6s;
   animation-timing-function: linear;
+  animation-delay: 2s; */
 }
-.css{
-  padding: 17px;
-  animation: rotation 6s;
-  animation-timing-function: linear;
-  animation-delay: 2s;
-}
-.js{
-  padding: 17px;
-  animation: rotation 6s;
+.js {
+  padding: 25px;
+  /* animation: rotation 6s;
   animation-delay: 3s;
-  animation-timing-function: linear;
+  animation-timing-function: linear; */
 }
-.ruby{
-  padding: 13px;
-  animation: rotation 6s;
+.ruby {
+  padding: 25px;
+  /* animation: rotation 6s;
   animation-delay: 4s;
-  animation-timing-function: linear;
+  animation-timing-function: linear; */
 }
-.rails{
-  padding: 28px;
-  animation: rotation 6s;
-  animation-delay:5s;
-  animation-timing-function: linear;
+.rails {
+  padding: 48px;
+  /* animation: rotation 6s;
+  animation-delay: 5s;
+  animation-timing-function: linear; */
 }
-.react{
-  padding: 10px;
-  animation: rotation 6s;
+.react {
+  padding: 25px;
+  /* animation: rotation 6s;
   animation-delay: 6s;
-  animation-timing-function: linear;
+  animation-timing-function: linear; */
 }
-@keyframes rotation {
+/* @keyframes rotation {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(359deg);
-  }
-}
+  } */
+/* } */

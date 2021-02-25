@@ -10,11 +10,66 @@
   left: 0;
   width: 100vw;
 }
-.my-logo {
-  margin-top: 20px;
-  margin-left: 70px;
+.my-logo{
+  margin-left: 100px;
 }
-
+.drop-box-top {
+  margin-top: 50px;
+  margin-left: 85px;
+  display: flex;
+  width: 170px;
+  top: 40px;
+  cursor: hand;
+  
+}
+.drop1 {
+  height: 45px;
+  width: 75px;
+  padding: 3px;
+  background-color: #4ca5c7;
+  border: 4px solid #5d1880;
+  border-top-right-radius: 65px;
+  border-bottom-left-radius: 65px;
+  /* margin-top: 20px;
+  margin-left: 70px; */
+  box-shadow: darkgrey;
+}
+.drop2 {
+  height: 45px;
+  width: 75px;
+  margin-left: 3px;
+  padding: 3px;
+  border: 4px solid #5d1880;
+  background-color: #8cdaab;
+  border-top-left-radius: 65px;
+  border-bottom-right-radius: 65px;
+  /* margin-top: 20px;
+  margin-left: 70px; */
+  box-shadow: darkgrey;
+}
+.drop3 {
+  margin-left: 85px;
+  margin-top: 3px;
+  height: 45px;
+  width: 75px;
+  background-color: #8cdaab;
+  border: 4px solid #5d1880;
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  /* margin-top: 20px;
+  margin-left: 70px; */
+  box-shadow: darkgrey;
+}
+.my-name{
+  font-size: 40px;
+  font-weight: bolder;
+color: #270857;
+margin-top: -40px;
+}
+.computer{
+  margin-left: 170px;
+  margin-top: -50px;
+}
 .nav-list {
   width: 40%;
   font-family: "Josefin Sans", sans-serif;

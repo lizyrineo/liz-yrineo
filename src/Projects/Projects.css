@@ -1,6 +1,6 @@
 
 .proj-page{
-  
+  font-family: 'Josefin Sans', sans-serif;
   margin-top: 300px;
   margin-bottom: 300px;
 }
@@ -45,8 +45,9 @@
 .h1-p1 {
   font-weight: bolder;
   position: absolute;
+  font-size: 40px;
   z-index: 3;
-  transform: translate(-40%, -120%);
+  transform: translate(-40%, -100%);
   margin: 0;
   line-height: 1.2;
 }

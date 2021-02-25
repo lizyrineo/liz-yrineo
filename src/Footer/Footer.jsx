@@ -1,30 +1,52 @@
 import React from "react";
 import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faGithub,
+  faMapSigns,
+  faBinoculars,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
+  
   return (
-    <div className="all-footer">
-      <div className='liz-contact'>
-      <a href="mailto:lizyrineo@yahoo.com" className="footer-link">
-          lizyrineo@yahoo.com
-      </a>
-      </div>
-      <div className="social-list">
-        <a class="social-list-github__link" href="https://github.com/lizyrineo" target="_blank">
-          <img className="github" src="https://i.imgur.com/RlRMDAQ.png?1" />
-        </a>
-
-        <a
-          class="social-list-linkedin__link"
-          href="https://www.linkedin.com/in/liz-yrineo-39542469/" target="_blank">
-          <img className="linkedin" src="https://i.imgur.com/6oOxSwo.png?1" />
-        </a>
-
-        <a class='resume'
-          href="https://drive.google.com/file/d/1H50CXXYD1Ofg3H7fW4ruTgmFCSzdHcCk/preview" width="640" height="480" target='_blank'>
-          <img className='resume' src='https://i.imgur.com/3i5fIPF.png' />
+    <div className="main-footer">
+     <div className='social-container'>
+          <div className="github">
+            <a
+              class="social-list-github__link"
+              href="https://github.com/lizyrineo"
+              target="_blank"
+            >
+              <FontAwesomeIcon className="github" icon={faGithub} />
+            </a>
+          </div>
+        
+        
+        <div className="linkedin">
+          <a
+            class="social-list-linkedin__link"
+            href="https://www.linkedin.com/in/liz-yrineo-39542469/"
+            target="_blank"
+          >
+            <FontAwesomeIcon className="linkedin" icon={faLinkedin} />
           </a>
+          </div>
+          </div>
+        <div className="resume">
+       
+          <a href="https://drive.google.com/file/d/1H50CXXYD1Ofg3H7fW4ruTgmFCSzdHcCk/preview"
+          target="_blank">
+           <button className='resume-click'>To my resume</button>
+          </a>
+          
+        </div>
+        <div className='author'>
+          <p>
+             ©lizyrineo 2021
+          </p>
+        </div>
       </div>
-    </div>
   );
 }

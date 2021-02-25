@@ -7,7 +7,7 @@
 }
 .bg {
   animation:slide 6s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #593d67 50%, #bc9ec8 50%);
+  background-image: linear-gradient(-60deg, #8B47B5 50%, #F3CFE9 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -45,6 +45,14 @@
   100% {
     transform:translateX(25%);
   }
+}
+.page-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content-wrap{
+  flex:1;
 }
  /* label {
    display: block;
