@@ -32,9 +32,9 @@ function App() {
           <ContactForm />
         </Route>
         </Switch>
-        </div>
+        
         <Footer />
-       
+        </div>
     </div>
   );
 }
